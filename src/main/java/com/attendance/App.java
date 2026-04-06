@@ -13,7 +13,7 @@ else if (percentage >= 60) return "Warning - Attendance Low";
 else return "Detained - Attendance Critical";
 }
 public static void main(String[] args) {
-int attended = 45;
+int attended = 38;
 int total = 60;
 double percentage = calculateAttendancePercentage(attended, total);
 System.out.println("Attendance Percentage: " + percentage + "%");
